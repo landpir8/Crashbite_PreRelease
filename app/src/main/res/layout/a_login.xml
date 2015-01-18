@@ -15,4 +15,26 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textSize="60dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/ti_password"
+        android:enabled="false"
+        android:layout_marginTop="25dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/ti_email"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/ti_email"
+        android:layout_below="@+id/t_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
 </RelativeLayout>
